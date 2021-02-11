@@ -1,0 +1,6 @@
+.row {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #ffc107;
+  border-radius: 5px;
+}

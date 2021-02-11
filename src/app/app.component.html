@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-show [items]="items">
+        <app-input
+          (inputSaveActualValue)="saveActualInputValue($event)"
+        ></app-input>
+        <app-button (buttonCreateName)="createName()"></app-button>
+        <br />
+      </app-show>
+    </div>
+  </div>
+</div>
+
+<!-- DU vyrobit novy projekt, vytvorit komponenty input, button a show. V rodicovi pouzit vsetky 3 komponenty.V komponente show budem vkladat cez ng-content komponenty input a button, ked kliknem na button vezmem obsah inputu a nasledne ho zaslem do rodica a odtial sa zasle do komponenty show. Show bude div, v nom ul a v nom licka cez for cyklus nacitavam pole z rodica. Do vnutra divka nad ul pridavam ng-content na input a button. Pouzit @Input a @Output a ngModel/@ViewChild/mriezkova referencia -->

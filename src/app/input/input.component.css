@@ -1,0 +1,21 @@
+label {
+  color: #ffc107;
+  font-size: 30px;
+}
+
+input {
+  margin-top: 20px;
+  text-transform: capitalize;
+  border-color: #ffc107;
+  background-color: #f5edd7;
+}
+
+input:hover {
+  background-color: #f5edd7;
+}
+
+input:focus {
+  background-color: #f5edd7;
+  border: 3px solid #ffc107;
+  box-shadow: none;
+}

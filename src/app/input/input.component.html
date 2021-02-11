@@ -1,0 +1,11 @@
+<div class="form-group">
+  <label for="inputValue"><strong>Your text:</strong></label>
+  <input
+    id="inputValue"
+    type="text"
+    class="form-control"
+    placeholder="Insert your text here..."
+    [(ngModel)]="name"
+    (keydown)="saveValue()"
+  />
+</div>
